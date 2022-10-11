@@ -1,6 +1,6 @@
 package ru.mirea.task1;
 
-public class Harmonic {
+public class Forth {
     public static void main(String[] args) {
         System.out.println("Гармонический ряд: a(n) = 1/n");
         for(int i = 1; i < 11; i++)
