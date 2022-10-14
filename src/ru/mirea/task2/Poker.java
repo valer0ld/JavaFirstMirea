@@ -21,7 +21,6 @@ public class Poker {
         String[] kolodaT = new String[52];
         int karta;
         Random r = new Random();
-        boolean flag = true;
         int i = 0;
         while(i < 52)
         {
