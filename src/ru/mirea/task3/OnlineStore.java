@@ -6,9 +6,7 @@ package ru.mirea.task3;
  где пользователь может выбрать валюту для оплаты товара
 */
 
-import java.lang.reflect.Array;
 import java.text.NumberFormat;
-import java.util.Arrays;
 import java.util.Locale;
 import java.util.Random;
 import java.util.Scanner;
