@@ -23,12 +23,11 @@ public class Match extends JFrame {
         setSize(300, 300);
         JPanel panel = new JPanel();
 
-        Dimension size = new Dimension(250, 50);
-        Border border = BorderFactory.createLineBorder(Color.WHITE, 1);
-
         panel.setBackground(new Color(7, 160, 7));
         panel.setPreferredSize(new Dimension(400, 250));
 
+        Dimension size = new Dimension(250, 50);
+        Border border = BorderFactory.createLineBorder(Color.WHITE, 1);
 
         JLabel label1 = new JLabel("Result: " + score1 + " X " + score2);
         label1.setForeground(Color.WHITE);
@@ -36,13 +35,11 @@ public class Match extends JFrame {
         label1.setBorder(border);
         label1.setHorizontalAlignment(JLabel.CENTER);
 
-
         JLabel label2 =  new JLabel("Last Scorer: " + last);
         label2.setForeground(Color.WHITE);
         label2.setPreferredSize(size);
         label2.setBorder(border);
         label2.setHorizontalAlignment(JLabel.CENTER);
-
 
         JLabel label3 =  new JLabel("Winner: " + winner);
         label3.setForeground(Color.WHITE);
