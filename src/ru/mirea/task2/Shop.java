@@ -40,8 +40,9 @@ public class Shop {
         {
             if (Objects.equals(this.compList[i], comp))
             {
-                this.current--;
+                compList[i] = null;
                 for(int y = i; y < this.current; y++) compList[y] = compList[y + 1];
+                this.current--;
                 flag = true;
             }
         }
