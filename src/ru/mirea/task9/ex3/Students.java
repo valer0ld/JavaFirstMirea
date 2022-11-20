@@ -1,8 +1,8 @@
 package ru.mirea.task9.ex3;
 
 public class Students {
-    String name;
-    double mark;
+    private String name;
+    private double mark;
 
     public Students(String name, double mark) {
         this.name = name;
