@@ -21,6 +21,8 @@ public class Calculator extends JFrame {
 
     Calculator() {
         super("Simple Calculator");
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
         setLayout(new GridLayout(2, 1));
         jPanel[0] = new JPanel();
         jPanel[1] = new JPanel(new FlowLayout(FlowLayout.CENTER, 10, 20));

@@ -18,6 +18,8 @@ public class SimpleCalculator extends JFrame {
 
     SimpleCalculator() {
         super("Simple Calculator");
+        setLocationRelativeTo(null);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
         setSize(250,150);
 
