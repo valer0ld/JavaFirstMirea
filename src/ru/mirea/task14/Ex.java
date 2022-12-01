@@ -3,7 +3,7 @@ package ru.mirea.task14;
 import java.util.regex.Pattern;
 
 
-public class ex {
+public class Ex {
     public static void main(String[] args) {
         System.out.println("Задание 2:\n");
         Pattern ex2 = Pattern.compile("abcdefghijklmnopqrstuv18340");
