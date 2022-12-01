@@ -45,7 +45,7 @@ public class PasswordCheck extends JFrame {
 
                 if (e.getKeyCode() == KeyEvent.VK_ENTER)
                 {
-                    System.out.println(service.getText() + " " + user.getText() + " " + password.getText());
+                    //System.out.println(service.getText() + " " + user.getText() + " " + password.getText());
                     if (service.getText().equals("1") && user.getText().equals("user") && password.getText().equals("password"))
                         JOptionPane.showMessageDialog(null, "Вы вошли в систему!", "Вход выполнен", JOptionPane.INFORMATION_MESSAGE);
                     else
