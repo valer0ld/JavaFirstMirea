@@ -7,13 +7,13 @@ public class Map{
     public HashMap<String, String> createMap()
     {
         map = new HashMap<>();
-        map.put("AAA", "aaa");
+        map.put("AA", "aaa");
         map.put("AAA", "bbb");
         map.put("CCC", "ccc");
         map.put("DDD", "aaa");
         map.put("EEE", "ggg");
         map.put("JJJ", "jjj");
-        map.put("III", "iii");
+        map.put("III", "aaa");
         map.put("GGG", "bbb");
         map.put("LLL", "lll");
         map.put("MMM", "mmm");
@@ -23,12 +23,18 @@ public class Map{
     public int getSameLastNameCount()
     {
         HashMap<String, String> tmp = map;
-        Set<String> hash = map.keySet();
-        Object[] keyAr = hash.toArray();
+        Object[] keyAr = map.keySet().toArray();
         String last = null;
         int counter = 0;
-        for(int y = 0; y < keyAr.length; y++)
+    /*    for(int y = 0; y < keyAr.length; y++)
         {
+            last = (String) keyAr[y];
+            while(tmp.containsKey(last))
+            {
+                System.out.println(tmp.get(last));
+                tmp.remove(last, tmp.get(last));
+            }
+
             if (keyAr[y] != null) last = (String) keyAr[y];
             keyAr[y] = null;
             for(int i = 0; i < keyAr.length; i++)
@@ -39,7 +45,8 @@ public class Map{
                     counter++;
                 }
             }
-        }
+        }*/
+        System.out.println("В хэш таблице не может быть двух одинаковых ключей!");
         return counter;
     }
 
