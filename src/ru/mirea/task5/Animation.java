@@ -10,7 +10,7 @@ public class Animation extends JFrame{
     private int i = 2;
 
     public Animation(){
-        super("RandomFigure");
+        super("Animation");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(500, 500);
 
