@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class ArgPicture extends JFrame {
 
     public ArgPicture(String path){
-        super("RandomFigure");
+        super("ArgPicture");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(500, 500);
 
