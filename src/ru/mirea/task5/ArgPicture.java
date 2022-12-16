@@ -5,7 +5,7 @@ import java.awt.*;
 import java.util.Arrays;
 
 
-//java ArgPicture.java C:\Users\Валера\Pictures\photo5294371182251981282.jpg
+//java ArgPicture.java C:\Users\валера\Pictures\photo5294371182251981282.jpg
 public class ArgPicture extends JFrame {
 
     public ArgPicture(String path){
